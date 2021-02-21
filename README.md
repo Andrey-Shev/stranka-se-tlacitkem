@@ -1,2 +1,2 @@
-# stranka-se-tlacitkem
+# stránka se tlačítkem
 stránka se tlačítkem
