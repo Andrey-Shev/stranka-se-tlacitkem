@@ -3,15 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
     <title>stránka se tlačítkem</title>
 </head>
 <body>
-    <div class="huils">
+    <div class="content-left">
         <div class="heading">
             <h1>Smart 404</h1>
         </div>
-        <div class="button">
-            <button>Нет, блин, батон</button>
+        <div class="up">
+            <button class="upButton" onclick="goUp()">UP</button>
+        </div>
+        <div class="stop">
+            <button class="stopButton" onclick="stop()">STOP</button>
+        </div>
+        <div class="down">
+            <button class="downButton" onclick="goDown()">DOWN</button>
         </div>
     </div>
 </body>
